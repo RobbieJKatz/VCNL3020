@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SensorEtch)(type KiCad)(uri "$(KIPRJMOD)/SensorEtch.pretty")(options "")(descr ""))
+)
