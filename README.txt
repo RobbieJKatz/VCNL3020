@@ -102,7 +102,11 @@ IDEAL USE CASE
 
 For detecting people, it would be best used when the person is pressed up against the sensor, for example like when talking on a  mobile phone. 
 
+——————————————————
+EXTENDING DISTANCE
+——————————————————
 
+It is also possible to extend the proximity sensing distance to add external LED(s). The included application note explains how this is done. 
 
 
  
