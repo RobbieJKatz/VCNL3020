@@ -2,7 +2,7 @@
 EXECUTIVE SUMMARY
 —————————————————
 
-The VCNL3020 chip is a good near-distance proximity sensor. It is easy to program and interface with however when sensing humans, e.g. hands, heads, ears, I would suggest making sure the application requires the proximity distance to be within 3cm to achieve reliability. The chip can do all the processing, and can give the master uC interrupts when needed. This results in simple uC side programming. 
+The VCNL3020 chip is a good near-distance proximity sensor. It is easy to program and interface with however when sensing humans, e.g. hands, heads, ears, I would suggest making sure the application requires the proximity distance to be within 3cm to achieve reliability (if no external LED used). The chip can do all the processing, and can give the master uC interrupts when needed. This results in simple uC side programming. 
 
 ——————————————
 FILES INCLUDED
@@ -106,7 +106,7 @@ For detecting people, it would be best used when the person is pressed up agains
 EXTENDING DISTANCE
 ——————————————————
 
-It is also possible to extend the proximity sensing distance to add external LED(s). The included application note explains how this is done. 
+It is also possible to extend the proximity sensing distance to add external LED(s). The included application note explains how this is done. There are two possibilities with external LEDS, the first is to connect them directly to the chip, the second is the connect them via a MOSFET. This has drastically improved the sensing distance of the chip. 
 
 
  
